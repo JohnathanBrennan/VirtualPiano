@@ -64,7 +64,7 @@ const Key = ({note, pressedKeys}) => {
   const [isPressed, setIsPressed] = useState(false);
 
   const noteIsSharp = (note) => {
-    return note.length > 1;
+    return note.length > 2;
   }
   const classes = useStyles();
 
