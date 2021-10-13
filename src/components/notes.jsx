@@ -47,7 +47,7 @@ const Notes = () => {
           <audio
             id={note}
             key={index}
-            src={`./notes/${note}.mp3`}
+            src={`./notes1/notes/${note}.mp3`}
           />
         )
       })}
